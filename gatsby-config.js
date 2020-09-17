@@ -4,7 +4,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'pages',
-        path: '${__dirname}/scr/pages'
+        path: '$(__dirname)/src/pages/'
 
       },
     },
@@ -12,7 +12,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'post',
-        path: '${__dirname}/scr/post'
+        path: '$(__dirname)/src/post/'
 
       },
     },
@@ -20,7 +20,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',
-        path: '${__dirname}/scr/images'
+        path: '$(__dirname)/src/images/'
 
       },
     },
