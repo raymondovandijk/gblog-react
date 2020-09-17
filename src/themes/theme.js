@@ -1,7 +1,7 @@
 export default {
     fonts: {
         main: "Exo, sans-serif",
-        code: "Vollkorn, serif"
+        code: "Vollkorn, serif",
     },
     colors: {
         main1: "hsl(207,70%,59%)",
@@ -23,7 +23,7 @@ export default {
         medium: "2rem",
         large: "3rem",
     },
-    animation: {
+    animations: {
         button: "box-shadow 0.3s ease",
         link: "color 0.2s ease",
     },
