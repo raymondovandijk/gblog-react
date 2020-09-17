@@ -1,27 +1,24 @@
 module.exports = {
   plugins: [
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: 'pages',
-        path: '$(__dirname)/src/pages/'
-
+        name: `pages`,
+        path: `${__dirname}/src/pages/`,
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: 'post',
-        path: '$(__dirname)/src/post/'
-
+        name: `post`,
+        path: `${__dirname}/src/post/`,
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: 'images',
-        path: '$(__dirname)/src/images/'
-
+        name: `images`,
+        path: `${__dirname}/src/images/`,
       },
     },
     `gatsby-plugin-sharp`,
