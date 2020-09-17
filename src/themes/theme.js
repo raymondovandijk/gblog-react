@@ -1,7 +1,7 @@
 export default {
     fonts: {
-        main: "Exo, sans-serif",
-        code: "Vollkorn, serif",
+        main: "'Exo', sans-serif",
+        code: "'Vollkorn', serif",
     },
     colors: {
         main1: "hsl(207,70%,59%)",
