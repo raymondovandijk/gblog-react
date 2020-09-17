@@ -40,5 +40,15 @@ module.exports = {
         ]
       },
     },
+    {
+      resolve: 'gatsby-plugin-google-fonts',
+      options:{
+        fonts: [
+          'Exo',
+          'Vollkorn\:400,400i,700,700i',
+        ],
+        display: "sawp",
+      },
+    },
   ],
 }
