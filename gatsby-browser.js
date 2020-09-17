@@ -14,6 +14,9 @@ const GlobalStyles = createGlobalStyle`
         height: 100%;
         background-color: ${ props => props.theme.colors.light1 };
     }
+    h1 {
+        font-family: ${ props => props.theme.fonts.title } 
+    }
 `
 
 export const wrapRootElement = ({ element }) => (

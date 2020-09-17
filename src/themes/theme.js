@@ -1,7 +1,7 @@
 export default {
     fonts: {
         main: "'Exo', sans-serif",
-        code: "'Vollkorn', serif",
+        title: "'Vollkorn', serif",
     },
     colors: {
         main1: "hsl(207,70%,59%)",
@@ -12,7 +12,7 @@ export default {
         light1: "hsl(0,0%,97%)",
         light2: "hsl(0,0%,99%)",
     },
-    breakponts: {
+    breakpoints: {
         mobile: "only screen and (max-width: 50rem)",
         tablet: "only screen and (max-width: 65rem)",
     },
